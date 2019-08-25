@@ -1,0 +1,167 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.logo{
+    height: 60px;
+    left: 405px;
+    position: relative;
+    text-align: center;
+    top: 10px;
+    width: 110px;
+}
+.wrap{
+    width: 1020px;
+    margin: 0 auto;
+    min-height: 400px;
+}
+
+.menu{
+    position: relative;
+    top: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    z-index: 99999;
+}
+
+.menu li{
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.menu li a{
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    height: 40px;
+    width: 230px;
+    background-color: #07B3D3;
+    color: #fff;
+    padding: 0;
+    border-right: 1px solid #B2FFB2;
+}
+
+.item:hover > a{
+    background-color: #D6EBFF;
+    color: #07B3D3;
+}
+
+.item:hover ul{
+    display: block;
+}
+
+.submenu{
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    clear: both;
+}
+
+.submenu li {
+    display: block;
+    clear: both;
+}
+
+.submenu li a{
+    display: block;
+    height: 30px;
+    width: 225px;
+    background-color: #07B3D3;
+    clear: both;
+    border-top: 1px solid #D6EBFF;
+    font-size: 13px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.subitem:hover > a{
+    background-color: #D6EBFF;
+    color: #07B3D3;
+}
+.main{
+    clear:both;
+    position: relative;
+    top: 20px;
+}
+h2{
+    color: #259525;
+}
+.job{
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ADADAB;
+    text-decoration: none;
+    color: black;
+    width: 900px;
+}
+.job:hover{
+    background-color: #D6EBFF;
+}
+.job p{
+    margin: 0;
+}
+.post_name{
+    color: #259525;
+}
+.field{
+    display: block;
+    margin-bottom: 10px;
+}
+.forms label, label{
+    display: inline-block;
+    width: 150px;
+    margin-right: 20px;
+}
+
+/*slideshow*/
+.captionOrange, .captionBlack
+{
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+.captionOrange
+{
+    background: #EB5100;
+    background-color: rgba(235, 81, 0, 0.6);
+}
+.captionBlack
+{
+    font-size:16px;
+    background: #000;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+a.captionOrange, A.captionOrange:active, A.captionOrange:visited
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+a.captionOrange:hover
+{
+    color: #eb5100;
+    text-decoration: underline;
+    background-color: #eeeeee;
+    background-color: rgba(238, 238, 238, 0.7);
+}
+.bricon
+{
+    background: url(../img/browser-icons.png);
+}
+#slider1_container{
+    position: relative;
+    top:45px;
+    z-index: -99999;
+}
+/* slideshow end */
